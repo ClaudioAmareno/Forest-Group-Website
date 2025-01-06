@@ -1,0 +1,1 @@
+import"./main-CZHYbCoX.js";const e=document.querySelector(".button-offer"),s=document.querySelector(".rest-card"),t=document.querySelector(".button-offer-less");e.addEventListener("click",()=>{e.style.display="none",s.style.display="block",t.style.display="block"});t.addEventListener("click",()=>{e.style.display="block",s.style.display="none",t.style.display="none"});
