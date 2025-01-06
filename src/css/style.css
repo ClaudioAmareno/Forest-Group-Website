@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-active {
+	right: 0px;
+}
+
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+}
+
+.rotate-bar-second {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(225deg);
+	background-color: hsl(144, 71%, 53%);
+}
+.rotate-bar-first {
+	opacity: 0;
+	background-color: hsl(144, 71%, 53%);
+}
+.rotate-bar-third {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-225deg);
+	background-color: hsl(144, 71%, 53%);
+}
+
+.active-state {
+	background-color: black;
+	height: 100%;
+	color: white;
+}
+
+.shadow-bg{
+    opacity: 0.8;
+}

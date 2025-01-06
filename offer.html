@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pl" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: dark)" href="./src/img/tree-solid.svg" />
+  <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: light)" href="./src/img/tree-solid-white-theme.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pomagamy w organizacjach wycieczek do lasów, parków narodowych oraz w góry. Sprawdź wszystkie nasze oferty i wybierz najlepszą dla siebie!" />
+  <title>Forest Group | Oferty</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="dist/assets/main-CZHYbCoX-DXt5RPO0.css">
+  <script src="https://kit.fontawesome.com/16c52c2e79.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+  <!-- Navigation -->
+  <nav class="navbar sticky top-0 bg-white z-10">
+    <div class="container max-w-[1200px] flex justify-between items-center">
+      <div class="group flex p-6 text-2xl tablet:text-4xl ">
+        <a href="./index.html#home"><i
+            class="home tree fa-solid fa-tree mr-3 text-gray group-hover:text-green transition-colors duration-500"></i></a>
+        <a href="./index.html#home" class="group home">Forest</a>
+      </div>
+      <!-- Burger menu -->
+      <button class="burger relative h-[40px] w-[40px] mr-6 z-10 tablet:hidden">
+        <span
+          class="first absolute top-1/2 left-1/2 w-full h-[4px] bg-gray rounded-3xl -translate-x-1/2 -translate-y-1/2 duration-500"></span>
+        <span
+          class="second absolute top-1/4 left-1/2 w-full h-[4px] bg-gray rounded-3xl -translate-x-1/2 -translate-y-1/2 duration-500"></span>
+        <span
+          class="third absolute top-3/4 left-1/2 w-full h-[4px] bg-gray rounded-3xl -translate-x-1/2 -translate-y-1/2 duration-500"></span>
+      </button>
+      <!-- navigation on mobile after click burger menu -->
+      <div
+        class="nav-screen fixed h-[100vh] w-full max-w-[450px] top-0 right-[-450px] bg-black text-white opacity-95 duration-500">
+        <div class="flex flex-col h-full justify-center items-center text-center">
+          <ul class="text-2xl space-y-4">
+            <li><a href="./index.html#home" class="nav-link-mobile nav-link">Home</a></li>
+            <li><a href="./index.html#about" class="nav-link-mobile nav-link">O nas</a></li>
+            <li><a href="./index.html#offer" class="nav-link-mobile nav-link">Oferta</a></li>
+            <li><a href="./contact.html" class="nav-link-mobile nav-link">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Default navigation -->
+      <ul class="space-x-4 text-xl font-medium hidden tablet:flex">
+        <li class="nav-link home py-8 hover:bg-black hover:text-white transition-colors duration-500"
+          id="desktop-nav-home"><a href="./index.html#home" class="px-5 py-8">Home</a></li>
+        <li class="nav-link about py-8 hover:bg-black hover:text-white transition-colors duration-500"
+          id="desktop-nav-about"><a href="./index.html#about" class="px-5 py-8">O
+            nas</a></li>
+        <li class="nav-link offer py-8 bg-black text-white transition-colors duration-500" id="desktop-nav-offer"><a
+            href="./index.html#offer" class="px-5 py-8">Oferta</a></li>
+        <li class="nav-link contact py-8 hover:bg-black hover:text-white transition-colors duration-500"><a
+            href="./contact.html" class="px-5 py-8">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="section">
+    <div class="relative">
+      <img src="./src/img/house-desktop.jpg" class="h-[210px] tablet:h-[20rem] w-full object-cover"
+        alt="Piękny dom w sercu lasu">
+      <div class="absolute inset-0 bg-black/[.7]"></div>
+      <div class="container absolute max-w-[1200px] flex flex-col justify-center inset-0 px-4 tablet:px-6 text-white">
+        <p class="tablet:text-xl">Oferta</p>
+        <h1 class="text-xl tablet:text-4xl font-semibold">Sprawdź wszystkie nasze oferty!</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section flex flex-col tablet:items-center mt-10 mx-5 smartphone:mx-10 tablet:mx-auto" id="offer">
+      <div class="text-center mb-10">
+        <h2 class="mb-6 text-3xl tablet:text-5xl font-light uppercase">Nasze oferty</h2>
+        <p class="tablet:text-xl">Sprawdź wszystkie i wybierz najlepszą dla siebie!</p>
+      </div>
+      <div
+        class="tablet:grid tablet:grid-rows-2 tablet:grid-cols-[1fr_3.2fr_3.2fr_3.2fr_3.2fr_1fr] tablet:gap-3 desktop:gap-5 desktop:grid-rows-1 desktop:grid-cols-3">
+        <div
+          class="mb-4 smartphone:mb-8 tablet:mb-0 py-6 px-6 shadow-shadowCard rounded-md hover:shadow-shadowCardActive transition-shadow duration-500 tablet:row-start-1 tablet:row-end-2 tablet:col-start-2 tablet:col-end-4 desktop:col-start-1 desktop:col-end-2">
+          <div class="mb-4 text-center">
+            <p class="tablet:mb-2 text-xl tablet:text-3xl">Demo</p>
+            <p class="text-2xl tablet:text-4xl font-bold">$0</p>
+          </div>
+          <ul class="grid grid-rows-5 grid-cols-6 mb-6 tablet:text-lg">
+            <li class="row-start-1 row-end-2 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-2 row-end-3 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-3 row-end-4 col-start-2 col-end-7 mb-1 text-lightGray"><i
+                class="fa-solid fa-minus mr-2 tablet:mr-4 text-lightGray"></i>Opcja poza pakietem</li>
+            <li class="row-start-4 row-end-5 col-start-2 col-end-7 mb-1 text-lightGray"><i
+                class="fa-solid fa-minus mr-2 tablet:mr-4 text-lightGray"></i>Opcja poza pakietem</li>
+            <li class="row-start-5 row-end-6 col-start-2 col-end-7 mb-1 text-lightGray"><i
+                class="fa-solid fa-minus mr-2 tablet:mr-4 text-lightGray"></i>Opcja poza pakietem</li>
+          </ul>
+          <button
+            class="flex justify-self-center px-14 py-1 shadow-shadowCard rounded-lg hover:bg-green transition-colors duration-500">Wybierz</button>
+        </div>
+        <div
+          class="mb-4 smartphone:mb-8 tablet:mb-0 py-6 px-6 shadow-shadowCard rounded-md hover:shadow-shadowCardActive transition-shadow duration-500 tablet:row-start-1 tablet:row-end-2 tablet:col-start-4 tablet:col-end-6 desktop:col-start-2 desktop:col-end-3">
+          <div class="mb-4 text-center">
+            <p class="tablet:mb-2 text-xl tablet:text-3xl">Standard</p>
+            <p class="text-2xl tablet:text-4xl font-bold">$99</p>
+          </div>
+          <ul class="grid grid-rows-5 grid-cols-6 mb-6 tablet:text-lg">
+            <li class="row-start-1 row-end-2 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-2 row-end-3 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-3 row-end-4 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-4 row-end-5 col-start-2 col-end-7 mb-1 text-lightGray"><i
+                class="fa-solid fa-minus mr-2 tablet:mr-4 text-lightGray"></i>Opcja poza pakietem</li>
+            <li class="row-start-5 row-end-6 col-start-2 col-end-7 mb-1 text-lightGray"><i
+                class="fa-solid fa-minus mr-2 tablet:mr-4 text-lightGray"></i>Opcja poza pakietem</li>
+          </ul>
+          <button
+            class="flex justify-self-center px-14 py-1 shadow-shadowCard rounded-lg hover:bg-green transition-colors duration-500">Wybierz</button>
+        </div>
+        <div
+          class="py-6 px-6 shadow-shadowCard rounded-md hover:shadow-shadowCardActive transition-shadow duration-500 row-start-2 row-end-3 col-start-3 col-end-5 desktop:row-start-1 desktop:row-end-2 desktop:col-start-3 desktop:col-end-4">
+          <div class="mb-4 text-center">
+            <p class="tablet:mb-2 text-xl tablet:text-3xl">Premium</p>
+            <p class="text-2xl tablet:text-4xl font-bold">$299</p>
+          </div>
+          <ul class="grid grid-rows-5 grid-cols-6 mb-6 tablet:text-lg">
+            <li class="row-start-1 row-end-2 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-2 row-end-3 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-3 row-end-4 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-4 row-end-5 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            <li class="row-start-5 row-end-6 col-start-2 col-end-7 mb-1"><i
+                class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+          </ul>
+          <button
+            class="flex justify-self-center px-14 py-1 mb-6 shadow-shadowCard rounded-lg hover:bg-green transition-colors duration-500">Wybierz</button>
+        </div>
+      </div>
+      <button
+        class="button-offer my-4 tablet:text-2xl font-medium underline hover:text-green transition-colors duration-300"><i
+          class="fa-solid fa-hand-point-up mr-4 rotate-90 text-green"></i>Pokaż więcej</button>
+
+      <!-- Additional cards  -->
+      <div class="hidden rest-card">
+
+        <div class="mt-3 tablet:grid tablet:gap-2 desktop:gap-5 desktop:grid-rows-1 desktop:grid-cols-2">
+          <div
+            class="mb-4 smartphone:mb-8 tablet:mb-0 px-5 py-6 shadow-shadowCard rounded-md hover:shadow-shadowCardActive transition-shadow duration-500 tablet:row-start-1 tablet:row-end-2 tablet:col-start-2 tablet:col-end-3 desktop:col-start-1 desktop:col-end-2">
+            <div class="mb-4 text-center">
+              <p class="tablet:mb-2 text-xl tablet:text-3xl">Premium Pro Max</p>
+              <p class="text-2xl tablet:text-4xl font-bold">$999</p>
+            </div>
+            <ul class="grid grid-rows-5 grid-cols-6 mb-6 tablet:text-lg">
+              <li class="row-start-1 row-end-2 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-2 row-end-3 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-3 row-end-4 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-4 row-end-5 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-5 row-end-6 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            </ul>
+            <button
+              class="flex justify-self-center px-14 py-1 shadow-shadowCard rounded-lg hover:bg-green transition-colors duration-500">Wybierz</button>
+          </div>
+          <div
+            class="mb-4 smartphone:mb-8 tablet:mb-0 px-5 py-6 shadow-shadowCard rounded-md hover:shadow-shadowCardActive transition-shadow duration-500 tablet:row-start-1 tablet:row-end-2 tablet:col-start-4 tablet:col-end-6 desktop:col-start-2 desktop:col-end-3">
+            <div class="mb-4 text-center">
+              <p class="tablet:mb-2 text-xl tablet:text-3xl">Ultimate Pro Max</p>
+              <p class="text-2xl tablet:text-4xl font-bold">$2999</p>
+            </div>
+            <ul class="grid grid-rows-5 grid-cols-6 mb-6 tablet:text-lg">
+              <li class="row-start-1 row-end-2 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-2 row-end-3 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-3 row-end-4 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-4 row-end-5 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+              <li class="row-start-5 row-end-6 col-start-2 col-end-7 mb-1"><i
+                  class="fa-solid fa-check mr-2 tablet:mr-4 text-green"></i>Opcja w pakiecie</li>
+            </ul>
+            <button
+              class="flex justify-self-center px-14 py-1 shadow-shadowCard rounded-lg hover:bg-green transition-colors duration-500">Wybierz</button>
+          </div>
+  
+        </div>
+      </div>
+      <button
+        class="button-offer-less my-4 tablet:text-2xl font-medium underline hover:text-green transition-colors duration-300 hidden"><i
+          class="fa-solid fa-hand-point-up mr-4 rotate-90 text-green"></i>Pokaż mniej</button>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-footer">
+    <div class="desktop:flex tablet:container">
+      <div class="flex justify-center tablet:container tablet:justify-start">
+        <div class="group flex mb-2 py-6 desktop:py-8 text-2xl tablet:text-4xl desktop:text-5xl">
+          <a href="./index.html#home"><i class="home tree fa-solid fa-tree mr-3 text-gray"></i></a>
+          <a href="./index.html#home" class="group home">Forest</a>
+        </div>
+      </div>
+      <div class="text-center tablet:container tablet:mb-4 desktop:pt-8 desktop:pb-4 tablet:flex tablet:text-left">
+        <div class="tablet:mr-20">
+          <h3 class="mb-1 text-lg desktop:text-xl font-semibold desktop:font-bold">O nas</h3>
+          <ul>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Historia</li>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Parki</li>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Opinie</li>
+          </ul>
+        </div>
+        <div class="tablet:mr-20">
+          <h3 class="mb-1 text-lg desktop:text-xl font-semibold desktop:font-bold">Nasza firma</h3>
+          <ul>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Praca</li>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Kadry</li>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Zarząd</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-1 text-lg desktop:text-xl font-semibold desktop:font-bold">Dokumenty</h3>
+          <ul class="mb-4">
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Wnioski</li>
+            <li class="mb-1 text-base cursor-pointer"><a href="./index.html#home"></a>Rezerwacje</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="p-4">
+      <p class="text-xs text-center"> &copy; <span class="year"></span> Forest Group Company Ltd.</p>
+    </div>
+  </footer>
+  <script src="dist/assets/contact-BWiM8wrr.js" type="module"></script>
+  <script src="./src/js/offer.js"></script>
+</body>
+
+</html>
